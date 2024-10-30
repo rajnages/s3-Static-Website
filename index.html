@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Welcome to My Portafolio</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">MyWebsite</div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="hero" class="hero">
+        <div class="hero-content">
+            <h1>Welcome to My Portfolio</h1>
+            <p>Crafting seamless DevOps solutions and AWS integrations.</p>
+            <a href="#about" class="cta-button">Learn More</a>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <h2>About Me</h2>
+        <p>I'm a DevOps Engineer with expertise in AWS Cloud Platform, dedicated to creating efficient, scalable, and secure cloud solutions. Here’s a showcase of my key skills and experience areas.</p>
+        
+        <div class="portfolio-grid">
+            <div class="portfolio-card">
+                <h3>DevOps Engineering</h3>
+                <p>Experienced in designing and implementing CI/CD pipelines, automating processes, and ensuring seamless integration across various development stages.</p>
+                <ul>
+                    <li>CI/CD Pipelines</li>
+                    <li>Infrastructure as Code</li>
+                    <li>Continuous Integration</li>
+                    <li>Monitoring & Logging</li>
+                </ul>
+            </div>
+            
+            <div class="portfolio-card">
+                <h3>AWS Cloud Expertise</h3>
+                <p>Skilled in AWS services such as EC2, S3, Lambda, and CloudFormation, I provide scalable cloud architectures and cost-optimized solutions.</p>
+                <ul>
+                    <li>EC2, S3, Lambda</li>
+                    <li>CloudFormation</li>
+                    <li>Scalability & Security</li>
+                    <li>Cost Optimization</li>
+                </ul>
+            </div>
+            
+            <div class="portfolio-card">
+                <h3>Automation & Scripting</h3>
+                <p>Proficient in automation tools like Terraform and Ansible, I create efficient workflows and reduce manual intervention through reliable scripts.</p>
+                <ul>
+                    <li>Terraform</li>
+                    <li>Ansible</li>
+                    <li>Automated Deployments</li>
+                    <li>Process Optimization</li>
+                </ul>
+            </div>
+            
+            <div class="portfolio-card">
+                <h3>Containerization & Orchestration</h3>
+                <p>Specialized in Docker and Kubernetes, I design containerized environments to streamline deployments and improve resource management.</p>
+                <ul>
+                    <li>Docker</li>
+                    <li>Kubernetes (EKS)</li>
+                    <li>Microservices Architecture</li>
+                    <li>Scalability & Load Balancing</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="skills">
+        <h2>Skills and Ratings</h2>
+        <p>As a DevOps Engineer with expertise in AWS Cloud, here’s a showcase of my key skills and proficiency levels.</p>
+        
+        <div class="skills-grid">
+            <div class="skill-card">
+                <h3>CI/CD Pipeline Management</h3>
+                <div class="rating">
+                    <div class="rating-bar" style="width: 90%;"></div>
+                </div>
+                <p>Advanced proficiency in creating and managing CI/CD pipelines using tools like Jenkins and GitHub Actions.</p>
+            </div>
+    
+            <div class="skill-card">
+                <h3>AWS Cloud Services</h3>
+                <div class="rating">
+                    <div class="rating-bar" style="width: 85%;"></div>
+                </div>
+                <p>Strong experience with AWS services, including EC2, S3, Lambda, and CloudFormation.</p>
+            </div>
+    
+            <div class="skill-card">
+                <h3>Infrastructure as Code (IaC)</h3>
+                <div class="rating">
+                    <div class="rating-bar" style="width: 80%;"></div>
+                </div>
+                <p>Expertise in managing infrastructure using Terraform and AWS CloudFormation for automated, repeatable deployments.</p>
+            </div>
+    
+            <div class="skill-card">
+                <h3>Docker & Kubernetes</h3>
+                <div class="rating">
+                    <div class="rating-bar" style="width: 75%;"></div>
+                </div>
+                <p>Proficient in containerization with Docker and orchestration with Kubernetes for microservices management.</p>
+            </div>
+    
+            <div class="skill-card">
+                <h3>Monitoring & Logging</h3>
+                <div class="rating">
+                    <div class="rating-bar" style="width: 80%;"></div>
+                </div>
+                <p>Experience in monitoring and logging using tools like Prometheus, Grafana, and CloudWatch for efficient system management.</p>
+            </div>
+        </div>
+    </section>
+    
+    
+    <section id="projects" class="projects">
+        <h2>Our Projects</h2>
+        
+        <!-- <div class="filter-container">
+            <button class="filter-btn" onclick="filterProjects('AWS')">AWS</button>
+            <button class="filter-btn" onclick="filterProjects('Mobile')">Mobile</button>
+            <button class="filter-btn" onclick="filterProjects('Marketing')">Marketing</button>
+            <button class="filter-btn" onclick="filterProjects('Completed')">Completed</button>
+            <button class="filter-btn" onclick="filterProjects('In Progress')">In Progress</button>
+            <button class="filter-btn" onclick="resetFilters()">Reset Filters</button>
+        </div> -->
+    
+        <div class="project-container">
+            <div class="project" data-type="AWS" data-status="Completed">
+                <img src="https://private-user-images.githubusercontent.com/134182273/346263460-3e46931f-0802-48a7-b044-22cd2afde467.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MzAyODk5OTMsIm5iZiI6MTczMDI4OTY5MywicGF0aCI6Ii8xMzQxODIyNzMvMzQ2MjYzNDYwLTNlNDY5MzFmLTA4MDItNDhhNy1iMDQ0LTIyY2QyYWZkZTQ2Ny5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQxMDMwJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MTAzMFQxMjAxMzNaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT1kZGZhODQyOTYzYTUyZTU0MjhjOTk4OWQ2ZTIxMjhhOTU1ZDQ2ZWE1MDc5MzRmMzc1NGM2YjIxMjZjYjQ1YTFiJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.JZ3PcymLRLLqhQ_wOD3F9ojE-LiQ11wpBG4MFUA5W1E" alt="Project 1" class="project-image">
+                <h3>High-Availability, Scalable 3-Tier Architecture on AWS 🌐</h3>
+                <p>
+                    🔍 <strong>Project Overview:</strong> The architecture is structured in three tiers:
+                </p>
+                <ul>
+                    <li><strong>Web Tier:</strong> Handles incoming traffic with load balancing and auto-scaling.</li>
+                    <li><strong>App Tier:</strong> Provides the core application functionality within isolated, secure environments.</li>
+                    <li><strong>Database Tier:</strong> Manages data storage and retrieval with a managed database solution.</li>
+                </ul>
+                <a href="https://github.com/rajnages/AWS-3-Tier-Application-Project.git" class="project-button" target="_blank">View on GitHub</a>
+            </div>
+            <div class="project" data-type="Mobile" data-status="In Progress">
+                <img src="https://via.placeholder.com/300x200" alt="Project 2" class="project-image">
+                <h3>Project Title 2</h3>
+                <p>Brief description of the project goes here. This project involved developing a mobile application for both iOS and Android.</p>
+                <a href="https://github.com/rajnages/AWS-3-Tier-Application-Project.git" class="project-button" target="_blank">View on GitHub</a>
+            </div>
+            <div class="project" data-type="Marketing" data-status="Completed">
+                <img src="https://via.placeholder.com/300x200" alt="Project 3" class="project-image">
+                <h3>Project Title 3</h3>
+                <p>Brief description of the project goes here. This project involved creating a digital marketing strategy for a client.</p>
+                <a href="https://github.com/rajnages/AWS-3-Tier-Application-Project.git" class="project-button" target="_blank">View on GitHub</a>
+            </div>
+            <div class="project" data-type="AWS" data-status="In Progress">
+                <img src="https://via.placeholder.com/300x200" alt="Project 4" class="project-image">
+                <h3>Project Title 4</h3>
+                <p>Brief description of the project goes here. This project involved developing an AWS-based solution for cloud computing.</p>
+                <a href="https://github.com/rajnages/AWS-3-Tier-Application-Project.git" class="project-button" target="_blank">View on GitHub</a>
+            </div>
+        </div>
+    </section>
+    
+    <section id="social-media" class="social-media">
+        <h2>Connect with Us</h2>
+        <div class="social-media-container">
+            <a href="https://www.facebook.com/" target="_blank" class="social-media-icon facebook">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/5/51/Facebook_f_logo_%282019%29.svg" alt="Facebook">
+            </a>
+            <!-- <a href="https://twitter.com/" target="_blank" class="social-media-icon twitter">
+                <img src="https://logos-world.net/wp-content/uploads/2020/04/Twitter-Emblem.png" alt="Twitter">
+            </a> -->
+            <a href="https://www.linkedin.com/" target="_blank" class="social-media-icon linkedin">
+                <img src="https://th.bing.com/th/id/OIP.ozDiSGJlUqI6815cRlJiNAHaHa?rs=1&pid=ImgDetMain" alt="LinkedIn">
+            </a>
+            <a href="https://www.instagram.com/" target="_blank" class="social-media-icon instagram">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png" alt="Instagram">
+            </a>
+        </div>
+    </section>
+    
+    
+    <section id="contact" class="contact">
+        <h2>Contact Us</h2>
+        <form id="contact-form">
+            <input type="text" id="name" placeholder="Your Name" required>
+            <input type="email" id="email" placeholder="Your Email" required>
+            <textarea id="message" placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 MyWebsite. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
